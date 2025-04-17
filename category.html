@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootStrap.css">
+    <link rel="stylesheet" href="Css/style.css">
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Store | Category</title>
+</head>
+<body>
+        <!-- START HEADER -->
+        <header>
+            <div class="top-header d-flex align-items-center py-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <a href="">
+                                <img width="150px" src="images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <input class="form-control" type="text" placeholder="أكتب إسم المنتج للبحث عنه">
+                        </div>
+                        <div class="col-md-4 left-header d-flex align-items-center d-none d-lg-flex justify-content-end">
+                            <a data-bs-toggle="offcanvas" href="#card" role="button" aria-controls="offcanvasExample">
+                                <span>السله</span>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                            <a data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="offcanvasExample">
+                                <span>الدخول</span>
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <a href="">
+                                <span>لمفضله</span>
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttom-header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div>
+                            <button data-bs-toggle="offcanvas" href="#login" class="navbar-toggler menu-icon" type="button">
+                                <i class="fa-solid fa-user"></i>
+                            </button>
+                            <button data-bs-toggle="offcanvas" href="#card" class="navbar-toggler menu-icon" type="button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">الرئيسيه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الحواسيب</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الجوالات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">اللاب توبات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">السماعات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">إكسسوارات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">كاميرات</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- END HEADER -->
+        <!-- Start Bunner -->
+        <section class="bunner">
+            <h1 class="category-title">أهم الهواتف</h1>
+        </section>
+        <!-- End Bunner -->
+        <div class="container mt-5">
+            <button data-bs-toggle="offcanvas" href="#filter" class="navbar-toggler menu-icon d-sm-none" type="button">
+                <i class="fa-solid fa-user"></i>
+            </button>
+            <div class="row">
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="filter-section sticky-lg-top">
+                        <h4 class="filter-title">فلتره بالبحث</h4>
+                        <input type="text" class="form-control" placeholder="اسم المنتج">
+
+                        <select name="" id="" class="form-select mt-3">
+                            <option value="">هواتف</option>
+                            <option value="">هواتف</option>
+                            <option value="">هواتف</option>
+                            <option value="">هواتف</option>
+                            <option value="">هواتف</option>
+                        </select>
+                        <hr>
+                        <h4 class="filter-title">النوع</h4>
+                        <div class="filter-radio d-flex flex-column gap-2">
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                        </div>
+                        <h4 class="filter-title mt-3">نوع المعالج</h4>
+                        <div class="filter-radio d-flex flex-column gap-2">
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                            <div>
+                                <input name="category" type="radio" class="form-check-input">
+                                <label for="" class="form-label">سامسونج</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row row-cols-2 row-cols-md-3">
+                        <!-- 1 -->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/acc/market-headphones-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Head Phone Black</h3>
+                                    <p>أحدث أنواع السماعات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 200$</span>
+                                        <span>300$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="col product mb-3 lab">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/laptop/Product-1-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Laptop C25</h3>
+                                    <p>أحدث أنواع الابتوبات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 14000$</span>
+                                        <span>18000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3-->
+                        <div class="col product mb-3 phones">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/mobile/Product-2-2.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Samsung A10</h3>
+                                    <p>أحدث أنواع الهواتف وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 8000$</span>
+                                        <span>10000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 -->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/watches/market-watch-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Black Watch</h3>
+                                    <p>أحدث أنواع الساعات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 14000$</span>
+                                        <span>18000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/1 (3).jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Computer Head</h3>
+                                    <p>أحدث أنواع السماعات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 700$</span>
+                                        <span>500$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/1 (4).jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Camera m5</h3>
+                                    <p>أحدث أنواع الكاميرات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 1400$</span>
+                                        <span>1800$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="col product mb-3 phones">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Iphone 6</h3>
+                                    <p>أحدث أنواع الابتوبات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 40000$</span>
+                                        <span>50000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/acc/Product-9-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Camera</h3>
+                                    <p>أحدث أنواع كاميرات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 3000$</span>
+                                        <span>1500$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="col product mb-3 lab">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/laptop/Product-2-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Laptop A70</h3>
+                                    <p>أحدث أنواع الابتوبات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 20000$</span>
+                                        <span>19000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 10 -->
+                        <div class="col product mb-3 phones">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/mobile/Product-4-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Samsung A25</h3>
+                                    <p>أحدث أنواع الابتوبات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 14000$</span>
+                                        <span>18000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 11-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/watches/market-watch-2.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Watch</h3>
+                                    <p>أحدث أنواع الساعات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 60000$</span>
+                                        <span>80000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 12-->
+                        <div class="col product mb-3 phones">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/2.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Iphone 13pro max</h3>
+                                    <p>أحدث أنواع الهواتف وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 40000$</span>
+                                        <span>55000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 13-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/1 (16).jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Processor</h3>
+                                    <p>أحدث أنواع الاكسسوارات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 900$</span>
+                                        <span>1100$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 14-->
+                        <div class="col product mb-3 phones">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Iphone 7</h3>
+                                    <p>أحدث أنواع الهواتف وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 18000$</span>
+                                        <span>20000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 15-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/acc/Product-10-2.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Var</h3>
+                                    <p>أحدث أنواع الاكسسوارات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 3000$</span>
+                                        <span>4000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 16-->
+                        <div class="col product mb-3 lab">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/laptop/Product-8-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>laptop S4</h3>
+                                    <p>أحدث أنواع اللاب توبات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 70000$</span>
+                                        <span>5000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 17-->
+                        <div class="col product mb-3 phones">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/mobile/Product-5-1.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Oppo A8</h3>
+                                    <p>أحدث أنواع الهواتف وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 7000$</span>
+                                        <span>10000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 18-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/watches/market-watch-5.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Watch</h3>
+                                    <p>أحدث أنواع الساعات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 500$</span>
+                                        <span>600$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 19-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/10.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Head Phone</h3>
+                                    <p>أحدث أنواع الاكسسوارات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 200$</span>
+                                        <span>250$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 20-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/1 (18).jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Smart G3</h3>
+                                    <p>أحدث أنواع الاكسسوارات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 130$</span>
+                                        <span>200$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 21-->
+                        <div class="col product mb-3 phones">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/3.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Iphone 13</h3>
+                                    <p>أحدث أنواع الهواتف  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 9000$</span>
+                                        <span>1100$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 22-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/acc/Product-10-2.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Var</h3>
+                                    <p>أحدث أنواع الاكسسوارات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 3000$</span>
+                                        <span>4000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 23-->
+                        <div class="col product mb-3 lab">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/9.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Laptop m4</h3>
+                                    <p>أحدث أنواع الاكسسوارات  وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 70000$</span>
+                                        <span>80000$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 24-->
+                        <div class="col product mb-3 acc">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="images/products/watches/market-watch-12.jpg" alt="product">
+                                <div class="product-info">
+                                    <h3>Watch</h3>
+                                    <p>أحدث أنواع الساعات وأجددها</p>
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر 1000$</span>
+                                        <span>1700$</span>
+                                    </div>
+        
+                                    <button onclick="alert('تم إضافة المنتج الى السله')" class="btn btn-danger w-100">إضافه الى السله</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 25-->
+                        <!-- 26-->
+        
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col mb-3 f1">
+                    <img class="w-75" src="images/logo-white.png" alt="logo">
+                    <p class="text-white">
+                        متجرنا يهتم بالجوده والخامه النظيفه ونسعى لتوفير كل جديد وكل ما يرضى عملائنا
+                    </p>
+                    <ul class="navbar-nav text-white">
+                        <li><i class="fa-solid fa-location-dot"></i>دماط-قطور-الغربيه</li>
+                        <li><i class="fa-solid fa-phone"></i>+201093985171</li>
+                        <li><i class="fa-solid fa-envelope"></i>ibrahem.djxj@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col mb-3 f2">
+                    <h3>أهم الروابط</h3>
+                    <ul class="navbar-nav">
+                        <li><a href="#">الرئيسيه</a></li>
+                        <li><a href="#">الخصومات الاسبوعيه</a></li>
+                        <li><a href="#">عملائنا</a></li>
+                        <li><a href="#">من نحن</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-3 f3">
+                    <h3>التصنيفات</h3>
+                    <ul class="navbar-nav">
+                        <li><a href="#">الهواتف</a></li>
+                        <li><a href="#">الابتوبات</a></li>
+                        <li><a href="#">الساعات</a></li>
+                        <li><a href="#">السماعات</a></li>
+                        <li><a href="#">الاكسسوارات</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-3 f4">
+                    <h3>النشره البريديه</h3>
+                    <p>
+                        متجرنا يهتم بالجوده والخامه النظيفه ونسعى لتوفير كل جديد وكل ما يرضى عملائنا
+                    </p>
+                    <form action="">
+                        <input type="text" placeholder="البريد الالكترونى" class="form-control mb-3" >
+                        <button class="btn btn-danger w-100">اشتراك</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mt-3">
+                <div class="col">
+                    <a href="#"><img src="images/payments.png" alt="payments"></a>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <p class="text-center text-white">
+                        متجر هيما للادوات الالكترونيه 2025 ;&copy جميع الحقوق محفوظه
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+<!-- card -->
+
+
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="card" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="card">سلة المشتريات</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row row-cols-1 d-block row-mini-card m-1">
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img class="img-fluid w-25" src="images/products/12.jpg" alt="products">
+                    <p>Head Phone لون ابيض</p>
+
+                    <div class="btn-group btns-quantity-mini">
+                        <button type="button" class="btn">+</button>
+                        <button type="button" class="btn">1</button>
+                        <button type="button" class="btn">-</button>
+                    </div>
+                </div>
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img class="img-fluid w-25" src="images/products/7.jpg" alt="products">
+                    <p>Head Phone لون ابيض</p>
+
+                    <div class="btn-group btns-quantity-mini">
+                        <button type="button" class="btn">+</button>
+                        <button type="button" class="btn">1</button>
+                        <button type="button" class="btn">-</button>
+                    </div>
+                </div>
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img class="img-fluid w-25" src="images/products/8.jpg" alt="products">
+                    <p>Head Phone لون ابيض</p>
+
+                    <div class="btn-group btns-quantity-mini">
+                        <button type="button" class="btn">+</button>
+                        <button type="button" class="btn">1</button>
+                        <button type="button" class="btn">-</button>
+                    </div>
+                </div>
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img class="img-fluid w-25" src="images/products/1.jpg" alt="products">
+                    <p>Head Phone لون ابيض</p>
+
+                    <div class="btn-group btns-quantity-mini">
+                        <button type="button" class="btn">+</button>
+                        <button type="button" class="btn">1</button>
+                        <button type="button" class="btn">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+                <p class="alert alert-danger p-3 my-3 text-center">مجموع المنتجات 250000$ فقط لاغير</p>
+                <a href="cart.html"><button class="btn btn-primary w-100">عرض السله</button></a>
+                <a href="checkout.html"><button class="btn btn-danger w-100">إتمام الطلب</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filter -->
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="filter" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart">الفلتره</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-header">
+            <div class="filter-section sticky-lg-top">
+                <h4 class="filter-title">فلتره بالبحث</h4>
+                <input type="text" class="form-control" placeholder="اسم المنتج">
+
+                <select name="" id="" class="form-select mt-3">
+                    <option value="">هواتف</option>
+                    <option value="">هواتف</option>
+                    <option value="">هواتف</option>
+                    <option value="">هواتف</option>
+                    <option value="">هواتف</option>
+                </select>
+                <hr>
+                <h4 class="filter-title">النوع</h4>
+                <div class="filter-radio d-flex flex-column gap-2">
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                </div>
+                <h4 class="filter-title mt-3">نوع المعالج</h4>
+                <div class="filter-radio d-flex flex-column gap-2">
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">سامسونج</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- login -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="login">تسجيل الدخول</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mini-login">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">إسم المستخدم او البريد الالكترونى</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">كلمة المرور</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">حفظ</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">تسجيل الدخول</button>
+                </form>
+
+                <div class="alert alert-danger my-3 text-center">
+                    <a href="">نسيت كلمة المرور</a>
+                </div>
+
+                <hr>
+                <div class="text-center mt-5">
+                    <i class="fa-regular fa-user fa-5x"></i>
+                    <p>لا يوجد لدى حساب</p>
+                    <a class="btn btn-danger w-100" href="">إنشاء حساب جديد</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal --> 
+    <div class="modal fade" id="quick-product" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Head Phone Black</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col">
+                            <img class="img-fluid" src="images/products/12.jpg" alt="Head Phone Black">
+                            <a href="product.html"><button class="btn btn-primary w-100">كافة التفاصيل</button></a>
+                        </div>
+                        <div class="col">
+                            <img width="40%" class="mt-3" src="images/samsung.png" alt="samsung">
+                            <h1 class="modal-title fs-5 my-3">Head Phone Black لون ابيض</h1>
+                            <p class="product-description">
+                                جهاز إرسال أواستقبال موصل بأسلاك مع مقسم رئيسي يربط بين عدد من المشتركين باستخدم دوائر إلكترونية مركبة في مقسمات رئيسة تتغذى بتيار ثابت مقداره -48 فولت تولد
+                            </p>
+                            <div class="qiuck-reviews mb-3">
+                                <span>تقييمات المستخدمين</span>
+                                <div class="stars mb-2 d-inline-flex">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="price mb-3">
+                                <span>السعر 200$</span>
+                                <span>300$</span>
+                            </div>
+                            <div class="btns d-flex gap-3">
+                                <div class="btn-group btns-quantity">
+                                    <button type="button" class="btn">+</button>
+                                    <button type="button" class="btn">1</button>
+                                    <button type="button" class="btn">-</button>
+                                </div>
+
+
+                                <div class="d-flex gap-1 add-btn">
+                                    <button class="btn btn-danger">إضافة الى السله</button>
+                                    <button class="btn btn-success">شراء الان</button>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div class="gategory mb-3">
+                                <span>التصنيفات</span>
+                                <a href="">هواتف سامسونج</a>
+                            </div>
+
+                            <div class="share">
+                                <span>المشاركه</span>
+                                <div class="share-icons d-inline-flex gap-2">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Hide this modal and show the first with the button below.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/bootStrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
